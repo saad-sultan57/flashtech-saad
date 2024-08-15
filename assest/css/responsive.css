@@ -1,60 +1,15 @@
-@media only screen and (max-width: 1400px) {
-  #aboutus img {
-    position: unset;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .aboutus-head1 {
-    font-size: 22px;
-    line-height: 30px;
-  }
-  .aboutus-head2 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-  .aboutus-head3 {
-    font-size: 17px;
-    line-height: 25px;
-  }
+@media only screen and (min-width:991px) {
+    .offcanvas-backdrop.show {
+        display: none !important;
+    }
 }
 
-@media only screen and (min-width: 1100px) {
-  .section-heading {
-    font-size: 50px;
-  }
-}
 
-@media only screen and (max-width: 1100px) {
-  .bg-area {
-    border-radius: 0px;
-  }
-  .section-heading {
-    font-size: 30px;
-  }
-}
+@media only screen and (max-width:767px) {
+  
+    #main{
 
-@media only screen and (min-width: 991px) {
-  .offcanvas-backdrop.show {
-    display: none !important;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  #main {
-    border-radius: 0px;
-  }
-  #trustedby .subbox h2 {
-    font-family: Inter;
-    font-size: 60px;
-  }
-  #trustedby .subbox p {
-    font-size: 16.613px;
-  }
-}
-
-@media only screen and (max-width: 567px) {
-  .grow-absolute {
-    position: unset;
-    text-align: center;
-  }
+        border-radius: 0px;
+      }
+    
 }
