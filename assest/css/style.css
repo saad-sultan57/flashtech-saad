@@ -107,9 +107,9 @@ body {
 
 /* MARK:NavBar */
 
-nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+/* nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
   background: var(--black) !important;
-}
+} */
 
 .nav-mobile {
   position: relative;
@@ -466,4 +466,5 @@ footer ul li a {
   padding: 15px 30px;
   background: rgb(255, 255, 255);
   border-radius: 0px 0px 15px 15px;
+  list-style: disc;
 }
